@@ -47,7 +47,7 @@ export function AuthPage({ mode }) {
           </label>
           {error && <div className="error">{error}</div>}
           <button className="btn gold" type="submit">
-            {mode === "login" ? "Enter the quad" : "Join QuadBid"}
+            {mode === "login" ? "Enter campus" : "Join Campus Auction"}
           </button>
         </form>
         <p className="muted">

@@ -123,8 +123,8 @@ export function AuctionPage() {
           <p className="muted">Server clock. Atomic compare on the listing document. Proxy bids only raise by the increment.</p>
           <form className="stack" onSubmit={bid}>
             <label>
-              Amount (USD)
-              <input value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="25.00" />
+              Amount (Rs.)
+              <input value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="2500" />
             </label>
             <label className="row">
               <input type="checkbox" checked={proxy} onChange={(e) => setProxy(e.target.checked)} />

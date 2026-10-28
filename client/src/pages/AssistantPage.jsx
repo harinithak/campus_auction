@@ -38,7 +38,7 @@ export function AssistantPage() {
           <input value={message} onChange={(e) => setMessage(e.target.value)} />
         </label>
         <label>
-          Maximum you will spend ($)
+          Maximum you will spend (Rs.)
           <input value={max} onChange={(e) => setMax(e.target.value)} />
         </label>
         <button className="btn" type="submit">

@@ -41,7 +41,7 @@ function Nav() {
   return (
     <header className="nav">
       <Link className="brand" to="/">
-        QuadBid
+        Campus Auction
       </Link>
       <Link to="/">Market</Link>
       {user && <Link to="/sell">Sell</Link>}

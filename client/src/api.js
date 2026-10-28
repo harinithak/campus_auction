@@ -1,4 +1,4 @@
-const tokenKey = "quadbid_token";
+const tokenKey = "campus_auction_token";
 
 export function getToken() {
   return localStorage.getItem(tokenKey);
@@ -24,7 +24,8 @@ export async function api(path, { method = "GET", body } = {}) {
 }
 
 export function dollars(cents) {
-  return `$${(Number(cents || 0) / 100).toFixed(2)}`;
+  const rupees = (Number(cents || 0) / 100) * 83;
+  return `Rs. ${rupees.toFixed(2)}`;
 }
 
 export function toCents(n) {
