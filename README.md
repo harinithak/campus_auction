@@ -1,4 +1,4 @@
-# (campus-auction)
+# Campus-Auction
 
 Student marketplace with **fairness first**: server-clock bidding, atomic listing updates, public maxes, then wanted alerts, Q&A, and a sandboxed AI assistant last.
 
